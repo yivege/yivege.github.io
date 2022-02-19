@@ -1,0 +1,49 @@
+.logo-yi-vege,
+.sayur,
+.makanan {
+    width: 100%;
+}
+
+.logo-yi-vege {
+    display: block;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-contact {
+    width: 45px;
+    flex: 1;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.menu {
+    color: #1C5E20;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 480px) {
+    .logo-yi-vege {
+        width: 60%;
+    }
+
+    .content {
+        flex: 1;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .logo-contact {
+        width: 80px;
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+}

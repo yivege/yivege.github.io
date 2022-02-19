@@ -1,0 +1,39 @@
+body {
+    max-width: 980px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.seperator {
+    height: 0;
+    border-top: 5px green dotted;
+}
+
+.container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container.flex.small-screen {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+/* || Desktop screen */
+@media screen and (min-width: 475px) {
+    .container.flex {
+        display: flex;
+    }
+
+    .container.flex .text-section {
+        flex: 1;
+    }
+
+    .container.flex .image-section {
+        flex: 1;
+    }
+}
