@@ -31,9 +31,11 @@ body {
 
     .container.flex .text-section {
         flex: 1;
+        margin-right: 5px;
     }
 
     .container.flex .image-section {
         flex: 1;
+        margin-left: 5px;
     }
 }
