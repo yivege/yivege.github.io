@@ -4,46 +4,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 
 body {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-family: Rubik, Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5;
-    color: #222;
-    background-color: #E5C298;
+    color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: 2rem;
     font-weight: 500;
-    color: #1C5E20;
+    color: white;
 }
 
 h1 {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
 }
 
 h2 {
-    font-size: 2.0rem;
+    font-size: 1.6rem;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 h4 {
-    font-size: 1.2rem;
-}
-
-h5 {
     font-size: 1.0rem;
 }
 
+h5 {
+    font-size: 0.9rem;
+}
+
 h6 {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     margin-top: 0;
 }
 

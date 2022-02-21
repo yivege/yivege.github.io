@@ -26,7 +26,7 @@
 }
 
 .menu {
-    color: #1C5E20;
+    color: white;
     font-weight: 500;
 }
 
@@ -36,13 +36,7 @@
     }
 
     .makanan {
-        width: 100%;
-    }
-
-    .content {
-        flex: 1;
-        margin-left: 10px;
-        margin-right: 10px;
+        width: 300px;
     }
 
     .logo-contact {

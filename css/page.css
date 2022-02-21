@@ -2,11 +2,12 @@ body {
     max-width: 980px;
     width: 90%;
     margin: 0 auto;
+    background-color: #1C5E20;
 }
 
 .seperator {
     height: 0;
-    border-top: 5px green dotted;
+    border-top: 5px white dotted;
 }
 
 .container {
@@ -19,10 +20,10 @@ body {
     flex-wrap: wrap;
 }
 
-.container.flex.small-screen .content {
-    width: 170px;
-    margin-left: 5px;
-    margin-right: 5px;
+.container.grid-small-screen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
 }
 
 .flex-center {
@@ -30,10 +31,16 @@ body {
     justify-content: center;
 }
 
+.flex-space {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 /* || Desktop screen */
 @media screen and (min-width: 600px) {
     .container.flex {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .container.flex .text-section {
