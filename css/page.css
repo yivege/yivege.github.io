@@ -16,6 +16,13 @@ body {
 
 .container.flex.small-screen {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.container.flex.small-screen .content {
+    width: 170px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .flex-center {
@@ -24,7 +31,7 @@ body {
 }
 
 /* || Desktop screen */
-@media screen and (min-width: 475px) {
+@media screen and (min-width: 600px) {
     .container.flex {
         display: flex;
     }

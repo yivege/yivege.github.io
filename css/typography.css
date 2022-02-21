@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 
 body {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: Rubik, Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5;
     color: #222;
@@ -52,7 +52,7 @@ p {
 }
 
 /* || Desktop screen */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 600px) {
     /* || Typography */
     body {
       font-size: 1.5rem;
