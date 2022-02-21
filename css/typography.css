@@ -51,7 +51,7 @@ p {
 }
 
 /* || Desktop screen */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     /* || Typography */
     body {
       font-size: 1.5rem;

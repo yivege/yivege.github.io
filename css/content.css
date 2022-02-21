@@ -30,7 +30,7 @@
     font-weight: 500;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     .logo-yi-vege {
         width: 60%;
     }
